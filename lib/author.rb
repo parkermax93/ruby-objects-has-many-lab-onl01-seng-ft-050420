@@ -15,7 +15,11 @@ class Author
     @@post_count += 1 
   end
  
+<<<<<<< HEAD
   def posts
+=======
+  def post 
+>>>>>>> 9a05857c2b0022726225300e8e7f4b1fd3b2cf9d
      Post.all.select {|post| post.author == self}
   end
   
